@@ -397,7 +397,9 @@ ul#nav li.current a {
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
-
+/* ------------------------------------------------------------------ */
+/* e. Skills Section
+/* ------------------------------------------------------------------ */
 .photoshop {
    width: 60%;
    -moz-animation: photoshop 2s ease;
@@ -408,12 +410,6 @@ ul#nav li.current a {
    width: 55%;
    -moz-animation: illustrator 2s ease;
    -webkit-animation: illustrator 2s ease;
-}
-
-.wordpress {
-   width: 50%;
-   -moz-animation: wordpress 2s ease;
-   -webkit-animation: wordpress 2s ease;
 }
 
 .css {
@@ -511,16 +507,6 @@ ul#nav li.current a {
 
    100% {
       width: 55%;
-   }
-}
-
-@-webkit-keyframes wordpress {
-   0% {
-      width: 0px;
-   }
-
-   100% {
-      width: 50%;
    }
 }
 
