@@ -1135,6 +1135,10 @@ call-to-action .button {
 /* h. Contact Section
 /* ------------------------------------------------------------------ */
 
+.hidden {
+   visibility: hidden;
+}
+
 #contact {
    background: #191919;
    padding-top: 96px;
