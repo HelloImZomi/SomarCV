@@ -56,7 +56,7 @@ header .banner {
    margin: 0 auto;
    width: 85%;
    padding-bottom: 30px;
-   s text-align: center;
+   text-align: center;
 }
 
 header .banner-text {
@@ -397,20 +397,6 @@ ul#nav li.current a {
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
-/* ------------------------------------------------------------------ */
-/* e. Skills Section
-/* ------------------------------------------------------------------ */
-.photoshop {
-   width: 60%;
-   -moz-animation: photoshop 2s ease;
-   -webkit-animation: photoshop 2s ease;
-}
-
-.illustrator {
-   width: 55%;
-   -moz-animation: illustrator 2s ease;
-   -webkit-animation: illustrator 2s ease;
-}
 
 .css {
    width: 90%;
@@ -430,34 +416,28 @@ ul#nav li.current a {
    -webkit-animation: jquery 2s ease;
 }
 
-@-moz-keyframes photoshop {
-   0% {
-      width: 0px;
-   }
-
-   100% {
-      width: 60%;
-   }
+.php {
+   width: 60%;
+   -moz-animation: php 2s ease;
+   -webkit-animation: php 2s ease;
 }
 
-@-moz-keyframes illustrator {
-   0% {
-      width: 0px;
-   }
-
-   100% {
-      width: 55%;
-   }
+.csharp {
+   width: 60%;
+   -moz-animation: csharp 2s ease;
+   -webkit-animation: csharp 2s ease;
 }
 
-@-moz-keyframes wordpress {
-   0% {
-      width: 0px;
-   }
+.aspnet {
+   width: 60%;
+   -moz-animation: aspnet 2s ease;
+   -webkit-animation: aspnet 2s ease;
+}
 
-   100% {
-      width: 50%;
-   }
+.vuejs {
+   width: 50%;
+   -moz-animation: vuejs 2s ease;
+   -webkit-animation: vuejs 2s ease;
 }
 
 @-moz-keyframes css {
@@ -490,7 +470,7 @@ ul#nav li.current a {
    }
 }
 
-@-webkit-keyframes photoshop {
+@-moz-keyframes php {
    0% {
       width: 0px;
    }
@@ -500,13 +480,33 @@ ul#nav li.current a {
    }
 }
 
-@-webkit-keyframes illustrator {
+@-moz-keyframes csharp {
    0% {
       width: 0px;
    }
 
    100% {
-      width: 55%;
+      width: 60%;
+   }
+}
+
+@-moz-keyframes aspnet {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 60%;
+   }
+}
+
+@-moz-keyframes vuejs {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 50%;
    }
 }
 
@@ -531,6 +531,46 @@ ul#nav li.current a {
 }
 
 @-webkit-keyframes jquery {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 50%;
+   }
+}
+
+@-webkit-keyframes php {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 60%;
+   }
+}
+
+@-webkit-keyframes csharp {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 60%;
+   }
+}
+
+@-webkit-keyframes aspnet {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 60%;
+   }
+}
+
+@-webkit-keyframes vuejs {
    0% {
       width: 0px;
    }
