@@ -440,6 +440,24 @@ ul#nav li.current a {
    -webkit-animation: vuejs 2s ease;
 }
 
+.nodejs {
+   width: 20%;
+   -moz-animation: nodejs 2s ease;
+   -webkit-animation: nodejs 2s ease;
+}
+
+.mysql {
+   width: 80%;
+   -moz-animation: mysql 2s ease;
+   -webkit-animation: mysql 2s ease;
+}
+
+.postgresql {
+   width: 30%;
+   -moz-animation: postgresql 2s ease;
+   -webkit-animation: postgresql 2s ease;
+}
+
 @-moz-keyframes css {
    0% {
       width: 0px;
@@ -510,6 +528,36 @@ ul#nav li.current a {
    }
 }
 
+@-moz-keyframes nodejs {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 20%;
+   }
+}
+
+@-moz-keyframes mysql {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 80%;
+   }
+}
+
+@-moz-keyframes postgresql {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 30%;
+   }
+}
+
 @-webkit-keyframes css {
    0% {
       width: 0px;
@@ -577,6 +625,36 @@ ul#nav li.current a {
 
    100% {
       width: 50%;
+   }
+}
+
+@-webkit-keyframes nodejs {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 20%;
+   }
+}
+
+@-webkit-keyframes mysql {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 80%;
+   }
+}
+
+@-webkit-keyframes postgresql {
+   0% {
+      width: 0px;
+   }
+
+   100% {
+      width: 30%;
    }
 }
 
